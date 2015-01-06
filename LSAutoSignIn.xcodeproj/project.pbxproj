@@ -15,6 +15,7 @@
 		A5D7A56E1A5BB1C900E5660D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D7A56C1A5BB1C900E5660D /* LaunchScreen.xib */; };
 		A5D7A57A1A5BB1C900E5660D /* LSAutoSignInTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D7A5791A5BB1C900E5660D /* LSAutoSignInTests.m */; };
 		A5D7A5841A5BB21700E5660D /* GeofenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D7A5831A5BB21700E5660D /* GeofenceManager.m */; };
+		A5D7A5871A5C8C2300E5660D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D7A5861A5C8C2300E5660D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		A5D7A5791A5BB1C900E5660D /* LSAutoSignInTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAutoSignInTests.m; sourceTree = "<group>"; };
 		A5D7A5831A5BB21700E5660D /* GeofenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofenceManager.m; sourceTree = "<group>"; };
 		A5D7A5851A5BB23000E5660D /* GeofenceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeofenceManager.h; sourceTree = "<group>"; };
+		A5D7A5861A5C8C2300E5660D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D7A5871A5C8C2300E5660D /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 		A5D7A5511A5BB1C900E5660D = {
 			isa = PBXGroup;
 			children = (
+				A5D7A5861A5C8C2300E5660D /* CoreLocation.framework */,
 				A5D7A55C1A5BB1C900E5660D /* LSAutoSignIn */,
 				A5D7A5761A5BB1C900E5660D /* LSAutoSignInTests */,
 				A5D7A55B1A5BB1C900E5660D /* Products */,

@@ -73,6 +73,22 @@
     }
 }
 
+- (void)locationManager:(CLLocationManager *)manager didStartMonitoringForRegion:(CLRegion *)region
+{
+    NSLog(@"Started monitoring %@ region", region.identifier);
+}
+
+- (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region
+{
+    NSLog(@"Entered Region - %@", region.identifier);
+}
+
+- (void)locationManager:(CLLocationManager *)manager didExitRegion:(CLRegion *)region
+{
+    NSLog(@"Exited Region - %@", region.identifier);
+}
+
+/** Set up the region detection when the location changes */
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
     static BOOL firstTime = YES; // We only want to run the following code upon recieving the first location update
