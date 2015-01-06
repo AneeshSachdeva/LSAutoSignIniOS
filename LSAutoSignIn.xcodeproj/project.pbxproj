@@ -14,6 +14,7 @@
 		A5D7A56B1A5BB1C900E5660D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D7A56A1A5BB1C900E5660D /* Images.xcassets */; };
 		A5D7A56E1A5BB1C900E5660D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D7A56C1A5BB1C900E5660D /* LaunchScreen.xib */; };
 		A5D7A57A1A5BB1C900E5660D /* LSAutoSignInTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D7A5791A5BB1C900E5660D /* LSAutoSignInTests.m */; };
+		A5D7A5841A5BB21700E5660D /* GeofenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D7A5831A5BB21700E5660D /* GeofenceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A5D7A5731A5BB1C900E5660D /* LSAutoSignInTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSAutoSignInTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D7A5781A5BB1C900E5660D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D7A5791A5BB1C900E5660D /* LSAutoSignInTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAutoSignInTests.m; sourceTree = "<group>"; };
+		A5D7A5831A5BB21700E5660D /* GeofenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofenceManager.m; sourceTree = "<group>"; };
+		A5D7A5851A5BB23000E5660D /* GeofenceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeofenceManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				A5D7A5621A5BB1C900E5660D /* AppDelegate.m */,
 				A5D7A5641A5BB1C900E5660D /* ViewController.h */,
 				A5D7A5651A5BB1C900E5660D /* ViewController.m */,
+				A5D7A5851A5BB23000E5660D /* GeofenceManager.h */,
+				A5D7A5831A5BB21700E5660D /* GeofenceManager.m */,
 				A5D7A5671A5BB1C900E5660D /* Main.storyboard */,
 				A5D7A56A1A5BB1C900E5660D /* Images.xcassets */,
 				A5D7A56C1A5BB1C900E5660D /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				A5D7A5661A5BB1C900E5660D /* ViewController.m in Sources */,
 				A5D7A5631A5BB1C900E5660D /* AppDelegate.m in Sources */,
 				A5D7A5601A5BB1C900E5660D /* main.m in Sources */,
+				A5D7A5841A5BB21700E5660D /* GeofenceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
